@@ -1,0 +1,223 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                   
+                    
+
+                </ul>
+            </div>
+            
+            <div class = "search-container" style="margin-right: 20px;">
+                <div class = "menu-container" style="display: flex;">
+                    <li onclick="location.href='search.html';" style="margin-right: 12px; list-style-type: none; "><i style="margin:auto" class="left-menu-icon fas fa-search" ></i></li>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="container">
+        
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">With the help of a German bounty-hunter, a freed slave sets out to rescue his wife <br/>from a brutal plantation owner in Mississippi.</p>
+                <button onclick="localStorage.setItem('movieId', 'tt1853728');routeToMovie('tt1853728')" style="background-color: red;" class="featured-button">View Details</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">2023</p>
+                            <button onclick="" class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">2023</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">2023</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">2023</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">2023</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Godzilla</span>
+                            <p class="movie-list-item-desc">2023</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Oblivion</span>
+                            <p class="movie-list-item-desc">2013</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">The Hobbit</span>
+                            <p class="movie-list-item-desc">2012</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Due Date</span>
+                            <p class="movie-list-item-desc">2010</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Kick-Ass 2</span>
+                            <p class="movie-list-item-desc">2013</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">The Emoji Movie</span>
+                            <p class="movie-list-item-desc">2017</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">A family saga with a supernatural twist, set in a German town where the disappearance of two young<br/> children exposes the relationships among four families.</p>
+                <button style="background-color: red;" class="featured-button">View Details</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TRENDS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">1920</span>
+                            <p class="movie-list-item-desc">2008</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.jpg" alt="">
+                            <span class="movie-list-item-title">Paths of Glory</span>
+                            <p class="movie-list-item-desc">1957</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Lego Batman</span>
+                            <p class="movie-list-item-desc">2014-2018</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">2005</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                       
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">2012</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                      
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">HERO</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">2018</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
+                            <span class="movie-list-item-title">FairyTail</span>
+                            <p class="movie-list-item-desc">2017</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
+                            <span class="movie-list-item-title">Spiderman</span>
+                            <p class="movie-list-item-desc">2014</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Lego Batman</span>
+                            <p class="movie-list-item-desc">2014-2018</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                       
+                       
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">2012</p>
+                            <button class="movie-list-item-button">View Details</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        
+    </div>
+    <script src="home.js"></script>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+   
+</body>
+
+</html>

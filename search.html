@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li onclick="location.href='index.html';"class="menu-list-item active">Home</li>
+                </ul>
+            </div>
+
+            <div class="search-container">
+                <div class="menu-container" style="display: flex;">
+                    <li style="margin-right: 12px; list-style-type: none;">Search Movie</li>
+                    <input type="text" class="form-control" placeholder="Search movie" id="movie-search-box"
+                      >
+
+                    <!-- <div class="search-list" id="search-list"> -->
+                        <!-- list here -->
+                        <!-- <div class = "search-list-item">
+                            <div class = "search-item-thumbnail">
+                                <img src = "medium-cover.jpg">
+                            </div>
+                            <div class = "search-item-info">
+                                <h3>Guardians of the Galaxy Vol. 2</h3>
+                                <p>2017</p>
+                            </div>
+                        </div> -->
+                    <!-- </div> -->
+                   <button style="color: white;" id="movie-search-button" class="movie-search-button"  onclick="findMovies(1)"> 
+                    Search
+                   </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+
+        <div class="movie-list-container" style="padding-top: 12px;">
+            <div style="display: flex; justify-content: space-between;">
+            <h1 class="movie-list-title">Search Results</h1>
+            <div class="pagination">
+             
+                <ul> <!--pages or li are comes from javascript --> </ul>
+              </div>
+            </div>
+            <div id="movie-list-wrapper" class="movie-list-wrapper">
+                <div class="movie-list" id="movie-list" style="flex-wrap: wrap;">
+                  <h1  style="margin: auto; padding-top: 14%;">Search A Movie</h1>
+                </div>
+
+                
+                  
+
+            </div>
+        </div>
+   
+
+   
+
+
+    </div>
+
+    
+    </div>
+
+    </div>
+    <script src="home.js"></script>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+    
+   
+</body>
+
+</html>
