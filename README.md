@@ -37,10 +37,20 @@ This is a project built with HTML, CSS and Javascript, no external libraries wer
 
 1. Clone the repository:
    ```shell
-   git clone 
+   git clone https://github.com/NUACHE/Movie-Search-Web-App.git
+
+OR
+
+1. Download the repository:
+   ```shell
+   download the project as zip 
    
 2. Run the project
-```shell
+   ```shell
    open index.html file
-```
+   ```
+3. To search for movies
+   ```shell
+   Click the search icon on the navbar to route to the search page.
+   ```
 
