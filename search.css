@@ -52,6 +52,8 @@
   
   .menu-list-item.active {
     font-weight: bold;
+    cursor: pointer;
+    
   }
   .profile-container {
     flex: 2;

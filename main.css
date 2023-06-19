@@ -39,18 +39,9 @@ img{
         -ms-flex-pack: center;
             justify-content: center;
 }
-.logo{
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--light-dark-color);
-}
-.logo p{
-    font-size: 2rem;
-    color: #fff;
-    font-weight: bold;
-}
-.logo p span{
-    color: red;
-}
+.menu-list-item :hover{
+    cursor: pointer;
+  }
 .search-element{
     display: -webkit-box;
     display: -ms-flexbox;
